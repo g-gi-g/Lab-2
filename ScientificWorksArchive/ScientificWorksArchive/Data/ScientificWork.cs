@@ -18,9 +18,9 @@ public class ScientificWork
     [Display(Name = "Опис")]
     public string? Description { get; set; }
 
-    [Required(ErrorMessage = "Поле 'Текст' не може бути порожнє")]
-    [Display(Name = "Текст")]
-    public string Text { get; set; } = null!;
+    [Required(ErrorMessage = "Має бути додана наукова праця")]
+    [Display(Name = "Праця")]
+    public byte[] WorkFile { get; set; } = null!;
 
     public DateOnly RegistrationDate { get; set; }
 
