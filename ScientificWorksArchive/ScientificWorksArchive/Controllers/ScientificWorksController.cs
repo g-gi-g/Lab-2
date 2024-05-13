@@ -41,12 +41,34 @@ public class ScientificWorksController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> PutScientificWork(int id, ScientificWork scientificWork)
+    public async Task<IActionResult> PutScientificWork(int id, ScientificWorkInput scientificWorkInput)
     {
-        if (id != scientificWork.Id)
+        if (id != scientificWorkInput.Id)
         {
             return BadRequest();
         }
+
+        var fileName = scientificWorkInput.WorkFile.FileName;
+        var ext = Path.GetExtension(fileName).ToLowerInvariant();
+
+        if (ext != ".pdf")
+        {
+            return BadRequest();
+        }
+
+        ScientificWork scientificWork = new ScientificWork
+        {
+            Id = id,
+            Name = scientificWorkInput.Name,
+            Description = scientificWorkInput.Description,
+            RegistrationDate = scientificWorkInput.RegistrationDate,
+        };
+
+        Stream stream = scientificWorkInput.WorkFile.OpenReadStream();
+        BinaryReader reader = new BinaryReader(stream);
+        scientificWork.WorkFile = reader.ReadBytes((int)stream.Length);
+        reader.Close();
+        stream.Close();
 
         _context.Entry(scientificWork).State = EntityState.Modified;
 
@@ -70,8 +92,29 @@ public class ScientificWorksController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult<ScientificWork>> PostScientificWork(ScientificWork scientificWork)
+    public async Task<ActionResult<ScientificWork>> PostScientificWork(ScientificWorkInput scientificWorkInput)
     {
+        var fileName = scientificWorkInput.WorkFile.FileName;
+        var ext = Path.GetExtension(fileName).ToLowerInvariant();
+
+        if (ext != ".pdf")
+        {
+            return BadRequest();
+        }
+
+        ScientificWork scientificWork = new ScientificWork
+        {
+            Name = scientificWorkInput.Name,
+            Description = scientificWorkInput.Description,
+            RegistrationDate = scientificWorkInput.RegistrationDate,
+        };
+
+        Stream stream = scientificWorkInput.WorkFile.OpenReadStream();
+        BinaryReader reader = new BinaryReader(stream);
+        scientificWork.WorkFile = reader.ReadBytes((int)stream.Length);
+        reader.Close();
+        stream.Close();
+
         _context.ScientificWorks.Add(scientificWork);
         await _context.SaveChangesAsync();
 

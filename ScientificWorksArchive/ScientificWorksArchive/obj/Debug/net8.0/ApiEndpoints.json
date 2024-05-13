@@ -70,8 +70,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "projectResearcherWork",
-        "Type": "ScientificWorksArchive.Data.ProjectResearcherWork",
+        "Name": "projectResearcherWorkInput",
+        "Type": "ScientificWorksArchive.Models.ProjectResearcherWorkInput",
         "IsRequired": true
       }
     ],
@@ -101,8 +101,8 @@
         "IsRequired": true
       },
       {
-        "Name": "projectResearcherWork",
-        "Type": "ScientificWorksArchive.Data.ProjectResearcherWork",
+        "Name": "projectResearcherWorkInput",
+        "Type": "ScientificWorksArchive.Models.ProjectResearcherWorkInput",
         "IsRequired": true
       }
     ],
@@ -231,8 +231,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "project",
-        "Type": "ScientificWorksArchive.Data.Project",
+        "Name": "projectInput",
+        "Type": "ScientificWorksArchive.Models.ProjectInput",
         "IsRequired": true
       }
     ],
@@ -262,8 +262,8 @@
         "IsRequired": true
       },
       {
-        "Name": "project",
-        "Type": "ScientificWorksArchive.Data.Project",
+        "Name": "projectInput",
+        "Type": "ScientificWorksArchive.Models.ProjectInput",
         "IsRequired": true
       }
     ],
@@ -558,8 +558,8 @@
         "IsRequired": true
       },
       {
-        "Name": "researcher",
-        "Type": "ScientificWorksArchive.Data.Researcher",
+        "Name": "researcherInput",
+        "Type": "ScientificWorksArchive.Models.ResearcherInput",
         "IsRequired": true
       }
     ],
@@ -823,9 +823,29 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "scientificWork",
-        "Type": "ScientificWorksArchive.Data.ScientificWork",
-        "IsRequired": true
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "WorkFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationDate",
+        "Type": "System.DateOnly",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -849,14 +869,29 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "Id",
         "Type": "System.Int32",
         "IsRequired": true
       },
       {
-        "Name": "scientificWork",
-        "Type": "ScientificWorksArchive.Data.ScientificWork",
-        "IsRequired": true
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "WorkFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationDate",
+        "Type": "System.DateOnly",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

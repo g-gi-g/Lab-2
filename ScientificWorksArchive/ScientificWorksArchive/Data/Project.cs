@@ -11,13 +11,13 @@ public class Project
 
     public int Id { get; set; }
 
-    [Required(ErrorMessage = "Поле 'Ім'я проєкту' не може бути порожнє")]
-    [Display(Name = "Ім'я проєкту")]
+    [Required(ErrorMessage = "'Project name' field shouldn't be empty")]
+    [Display(Name = "Project name")]
     public string ProjectName { get; set; } = null!;
 
     public int ProjectStatusId { get; set; }
 
-    [Display(Name = "Опис")]
+    [Display(Name = "Project description")]
     public string? ProjectDescription { get; set; }
 
     public virtual ProjectStatus ProjectStatus { get; set; } = null!;
