@@ -87,14 +87,17 @@ function _displayProjectStatuses(data) {
 
     data.forEach(projectStatus => {
         let editButton = button.cloneNode(false);
+        editButton.classList.add('blueBtn');
         editButton.innerText = 'Редагувати';
         editButton.setAttribute('onclick', `displayEditForm(${projectStatus.id})`);
 
         let deleteButton = button.cloneNode(false);
+        deleteButton.classList.add('redBtn');
         deleteButton.innerText = 'Видалити';
         deleteButton.setAttribute('onclick', `deleteProjectStatus(${projectStatus.id})`);
 
         let searchProjectsButton = button.cloneNode(false);
+        searchProjectsButton.classList.add('lightBlueBtn');
         searchProjectsButton.innerText = 'Проєкти';
         searchProjectsButton.setAttribute('onclick', `getProjectsWithStatus(${projectStatus.id})`)
 
@@ -112,10 +115,10 @@ function _displayProjectStatuses(data) {
         td3.appendChild(editButton);
 
         let td4 = tr.insertCell(3);
-        td4.appendChild(deleteButton);
+        td4.appendChild(searchProjectsButton);
 
         let td5 = tr.insertCell(4);
-        td5.appendChild(searchProjectsButton);
+        td5.appendChild(deleteButton);
     });
 
     projectStatuses = data;

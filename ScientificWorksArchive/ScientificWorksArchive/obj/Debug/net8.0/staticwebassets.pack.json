@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Index.html"
     },
     {
+      "Id": "E:\\ІСтаТП\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
       "Id": "E:\\ІСтаТП\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\wwwroot\\js\\lab2.js",
       "PackagePath": "staticwebassets\\js\\lab2.js"
     },

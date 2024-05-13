@@ -1,0 +1,122 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+h1, h3 {
+    color: #333;
+    margin-left: 30px;
+}
+
+form {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+input[type="text"], input[type="submit"] {
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    margin-left: 40px;
+}
+
+.redBtn {
+    background-color: red;
+    color: white;
+}
+
+.redBtn:hover {
+    background-color: darkred;
+    cursor: pointer;
+    color: white;
+}
+
+.blueBtn {
+    background-color: blue;
+    color: white;
+}
+
+.blueBtn:hover {
+    background-color: darkblue;
+    cursor: pointer;
+    color: white;
+}
+
+.lightBlueBtn {
+    background-color: lightblue;
+    color: black;
+}
+
+.lightBlueBtn:hover {
+    background-color: lightcyan;
+    cursor: pointer;
+    color: black;
+}
+
+#editForm {
+    display: none;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#counter {
+    margin-top: 20px;
+}
+
+#projectResultTableHeader,
+#projectResultTable,
+#projectResultTableCloseBtn {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    input[type="text"], input[type="submit"] {
+        width: 100%;
+    }
+}
