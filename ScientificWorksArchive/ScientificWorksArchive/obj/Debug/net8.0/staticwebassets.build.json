@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "NHWNP0RdfqjtYFKZnvAkpMoV2pTQ4pWWJhfKbxXeuRQ=",
+  "Hash": "8I7QJnZHI08vdCHI2ETXiK53R4VEWc69PFH5XuauREQ=",
   "Source": "ScientificWorksArchive",
   "BasePath": "_content/ScientificWorksArchive",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ScientificWorksArchive\\wwwroot",
+      "Source": "ScientificWorksArchive",
+      "ContentRoot": "E:\\ІСтаТП\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\wwwroot\\",
+      "BasePath": "_content/ScientificWorksArchive",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\ІСтаТП\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\wwwroot\\Index.html",
+      "SourceId": "ScientificWorksArchive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ІСтаТП\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\wwwroot\\",
+      "BasePath": "_content/ScientificWorksArchive",
+      "RelativePath": "Index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Index.html"
+    },
+    {
+      "Identity": "E:\\ІСтаТП\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\wwwroot\\js\\lab2.js",
+      "SourceId": "ScientificWorksArchive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ІСтаТП\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\wwwroot\\",
+      "BasePath": "_content/ScientificWorksArchive",
+      "RelativePath": "js/lab2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\lab2.js"
+    }
+  ]
 }

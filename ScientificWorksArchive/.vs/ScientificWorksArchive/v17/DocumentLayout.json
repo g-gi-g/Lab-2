@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|e:\\\u0456\u0441\u0442\u0430\u0442\u043F\\lab 2\\lab2\\scientificworksarchive\\scientificworksarchive\\wwwroot\\js\\lab2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|solutionrelative:scientificworksarchive\\wwwroot\\js\\lab2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|e:\\\u0456\u0441\u0442\u0430\u0442\u043F\\lab 2\\lab2\\scientificworksarchive\\scientificworksarchive\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|solutionrelative:scientificworksarchive\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|e:\\\u0456\u0441\u0442\u0430\u0442\u043F\\lab 2\\lab2\\scientificworksarchive\\scientificworksarchive\\controllers\\projectstatusescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|solutionrelative:scientificworksarchive\\controllers\\projectstatusescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +31,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectStatusesController.cs",
+              "DocumentMoniker": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\Controllers\\ProjectStatusesController.cs",
+              "RelativeDocumentMoniker": "ScientificWorksArchive\\Controllers\\ProjectStatusesController.cs",
+              "ToolTip": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\Controllers\\ProjectStatusesController.cs",
+              "RelativeToolTip": "ScientificWorksArchive\\Controllers\\ProjectStatusesController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwEgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T21:52:52.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.html",
+              "DocumentMoniker": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\wwwroot\\Index.html",
+              "RelativeDocumentMoniker": "ScientificWorksArchive\\wwwroot\\Index.html",
+              "ToolTip": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\wwwroot\\Index.html",
+              "RelativeToolTip": "ScientificWorksArchive\\wwwroot\\Index.html",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-13T18:33:13.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lab2.js",
+              "DocumentMoniker": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\wwwroot\\js\\lab2.js",
+              "RelativeDocumentMoniker": "ScientificWorksArchive\\wwwroot\\js\\lab2.js",
+              "ToolTip": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\wwwroot\\js\\lab2.js",
+              "RelativeToolTip": "ScientificWorksArchive\\wwwroot\\js\\lab2.js",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAQwHMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-13T18:35:31.14Z",
+              "EditorCaption": ""
             }
           ]
         }

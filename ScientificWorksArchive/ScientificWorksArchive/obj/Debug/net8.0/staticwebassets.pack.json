@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\ІСтаТП\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\wwwroot\\Index.html",
+      "PackagePath": "staticwebassets\\Index.html"
+    },
+    {
+      "Id": "E:\\ІСтаТП\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\wwwroot\\js\\lab2.js",
+      "PackagePath": "staticwebassets\\js\\lab2.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ScientificWorksArchive.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ScientificWorksArchive.props",
+      "PackagePath": "build\\ScientificWorksArchive.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ScientificWorksArchive.props",
+      "PackagePath": "buildMultiTargeting\\ScientificWorksArchive.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ScientificWorksArchive.props",
+      "PackagePath": "buildTransitive\\ScientificWorksArchive.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

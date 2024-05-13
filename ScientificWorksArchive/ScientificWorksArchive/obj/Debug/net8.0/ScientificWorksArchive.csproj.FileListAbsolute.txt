@@ -238,3 +238,4 @@ E:\ІСтаТП\Lab 2\Lab2\ScientificWorksArchive\ScientificWorksArchive\obj\Deb
 E:\ІСтаТП\Lab 2\Lab2\ScientificWorksArchive\ScientificWorksArchive\obj\Debug\net8.0\ScientificWorksArchive.pdb
 E:\ІСтаТП\Lab 2\Lab2\ScientificWorksArchive\ScientificWorksArchive\obj\Debug\net8.0\ScientificWorksArchive.genruntimeconfig.cache
 E:\ІСтаТП\Lab 2\Lab2\ScientificWorksArchive\ScientificWorksArchive\obj\Debug\net8.0\ref\ScientificWorksArchive.dll
+E:\ІСтаТП\Lab 2\Lab2\ScientificWorksArchive\ScientificWorksArchive\bin\Debug\net8.0\ScientificWorksArchive.staticwebassets.runtime.json
