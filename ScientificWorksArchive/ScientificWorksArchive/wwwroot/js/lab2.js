@@ -94,6 +94,10 @@ function _displayProjectStatuses(data) {
         deleteButton.innerText = 'Видалити';
         deleteButton.setAttribute('onclick', `deleteProjectStatus(${projectStatus.id})`);
 
+        let searchProjectsButton = button.cloneNode(false);
+        searchProjectsButton.innerText = 'Проєкти';
+        searchProjectsButton.setAttribute('onclick', `getProjectsWithStatus(${projectStatus.id})`)
+
         let tr = tBody.insertRow();
 
         let td1 = tr.insertCell(0);
@@ -101,15 +105,55 @@ function _displayProjectStatuses(data) {
         td1.appendChild(textNode);
 
         let td2 = tr.insertCell(1);
-        let textNodeInfo = document.createTextNode(projectStatus.description);
-        td2.appendChild(textNodeInfo);
+        let textNodeDescription = document.createTextNode(projectStatus.description);
+        td2.appendChild(textNodeDescription);
 
         let td3 = tr.insertCell(2);
         td3.appendChild(editButton);
 
         let td4 = tr.insertCell(3);
         td4.appendChild(deleteButton);
+
+        let td5 = tr.insertCell(4);
+        td5.appendChild(searchProjectsButton);
     });
 
     projectStatuses = data;
+}
+
+function getProjectsWithStatus(id)
+{
+    document.getElementById('projectResultTable').style.display = 'block';
+    document.getElementById('projectResultTableHeader').style.display = 'block';
+    document.getElementById('projectResultTableCloseBtn').style.display = 'block';
+
+    fetch(`${uri}/GetProjectsWithStatus/${id}`)
+        .then(response => response.json())
+        .then(data => _displayProjects(data))
+        .catch(error => console.error('Неможливо отримати проєкти для статусу.', error));
+}
+
+function _displayProjects(data)
+{
+    const tBody = document.getElementById('projectResultTableBody');
+    tBody.innerHTML = '';
+
+    data.forEach(project => {
+        let tr = tBody.insertRow();
+
+        let td1 = tr.insertCell(0);
+        let textNode = document.createTextNode(project.projectName);
+        td1.appendChild(textNode);
+
+        let td2 = tr.insertCell(1);
+        let textNodeDescription = document.createTextNode(project.projectDescription);
+        td2.appendChild(textNodeDescription);
+    });
+}
+
+function closeProjectResultTable()
+{
+    document.getElementById('projectResultTable').style.display = 'none';
+    document.getElementById('projectResultTableHeader').style.display = 'none';
+    document.getElementById('projectResultTableCloseBtn').style.display = 'none';
 }

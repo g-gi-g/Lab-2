@@ -333,8 +333,8 @@
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ProjectStatusesController",
-    "Method": "GetProjectWithStatus",
-    "RelativePath": "api/ProjectStatuses/GetProjectWithStatus/{id}",
+    "Method": "GetProjectsWithStatus",
+    "RelativePath": "api/ProjectStatuses/GetProjectsWithStatus/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

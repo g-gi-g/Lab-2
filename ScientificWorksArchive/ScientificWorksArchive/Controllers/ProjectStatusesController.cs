@@ -98,7 +98,7 @@ public class ProjectStatusesController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<IEnumerable<Project>>> GetProjectWithStatus(int id)
+    public async Task<ActionResult<IEnumerable<Project>>> GetProjectsWithStatus(int id)
     {
         if (!ProjectStatusExists(id))
         {

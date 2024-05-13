@@ -14,12 +14,12 @@
         <input type="submit" value="Додати">
     </form>
 
-    <div id="editForm">
+    <div id="editForm" style="display:none">
         <h3>Редагувати</h3>
         <form action="javascript:void(0);" onsubmit="updateProjectStatus()">
             <input type="hidden" id="edit-id">
-            <input type="text" id="edit-name">
-            <input type="text" id="edit-description">
+            <input type="text" id="edit-name" placeholder="Назва">
+            <input type="text" id="edit-description" placeholder="Опис">
             <input type="submit" value="Зберегти">
             <a onclick="closeInput()" aria-label="Close">&#10006;</a>
         </form>
@@ -34,6 +34,17 @@
         </tr>
         <tbody id="projectStatuses"></tbody>
     </table>
+
+    <h3 id="projectResultTableHeader" style="display:none">Результат пошуку за статусом</h3>
+    <table style="display:none" id="projectResultTable">
+        <tr>
+            <th>Назва</th>
+            <th>Опис</th>
+        </tr>
+        <tbody id="projectResultTableBody"></tbody>
+    </table>
+
+    <button id="projectResultTableCloseBtn" onclick="closeProjectResultTable()" style="display:none">Закрити</button>
 
     <script src="js/lab2.js" asp-append-version="true"></script>
     <script type="text/javascript">

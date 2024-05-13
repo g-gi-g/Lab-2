@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScientificWorksArchive")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93f7cfab5693e83e7f884a74e30ef12e5c490c6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79274c8e7ac26bb14b7a85ec83b59a161a4ed365")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScientificWorksArchive")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScientificWorksArchive")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
