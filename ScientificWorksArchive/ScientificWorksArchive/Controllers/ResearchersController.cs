@@ -10,7 +10,7 @@ using ScientificWorksArchive.Models;
 
 namespace ScientificWorksArchive.Controllers;
 
-[Route("api/[controller]/[action]")]
+[Route("api/[controller]")]
 [ApiController]
 public class ResearchersController : ControllerBase
 {
@@ -64,7 +64,7 @@ public class ResearchersController : ControllerBase
         }
         catch (DbUpdateConcurrencyException)
         {
-            if (!ResearcherExists(id))
+            if (!await ResearcherExists(id))
             {
                 return NotFound();
             }
@@ -108,15 +108,15 @@ public class ResearchersController : ControllerBase
         return NoContent();
     }
 
-    private bool ResearcherExists(int id)
+    private async Task<bool> ResearcherExists(int id)
     {
-        return _context.Researchers.Any(e => e.Id == id);
+        return await _context.Researchers.AnyAsync(e => e.Id == id);
     }
 
-    [HttpGet("{id}")]
+    [HttpGet("{id}/works")]
     public async Task<ActionResult<IEnumerable<ScientificWork>>> GetResearchersWorks(int id)
     {
-        if (!ResearcherExists(id))
+        if (!await ResearcherExists(id))
         {
             return NotFound();
         }
@@ -128,10 +128,10 @@ public class ResearchersController : ControllerBase
         return await works.ToListAsync();
     }
 
-    [HttpGet("{id}")]
+    [HttpGet("{id}/projects")]
     public async Task<ActionResult<IEnumerable<Project>>> GetResearchersProjects(int id)
     {
-        if (!ResearcherExists(id))
+        if (!await ResearcherExists(id))
         {
             return NotFound();
         }

@@ -1,50 +1,8 @@
 [
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ProjectResearcherWorksController",
-    "Method": "DeleteProjectResearcherWork",
-    "RelativePath": "api/ProjectResearcherWorks/DeleteProjectResearcherWork/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ScientificWorksArchive.Controllers.ProjectResearcherWorksController",
-    "Method": "GetProjectResearcherWork",
-    "RelativePath": "api/ProjectResearcherWorks/GetProjectResearcherWork/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "ScientificWorksArchive.Data.ProjectResearcherWork",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "ScientificWorksArchive.Controllers.ProjectResearcherWorksController",
     "Method": "GetProjectResearcherWorks",
-    "RelativePath": "api/ProjectResearcherWorks/GetProjectResearcherWorks",
+    "RelativePath": "api/ProjectResearcherWorks",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -64,7 +22,7 @@
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ProjectResearcherWorksController",
     "Method": "PostProjectResearcherWork",
-    "RelativePath": "api/ProjectResearcherWorks/PostProjectResearcherWork",
+    "RelativePath": "api/ProjectResearcherWorks",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -89,8 +47,34 @@
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ProjectResearcherWorksController",
+    "Method": "GetProjectResearcherWork",
+    "RelativePath": "api/ProjectResearcherWorks/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ScientificWorksArchive.Data.ProjectResearcherWork",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ScientificWorksArchive.Controllers.ProjectResearcherWorksController",
     "Method": "PutProjectResearcherWork",
-    "RelativePath": "api/ProjectResearcherWorks/PutProjectResearcherWork/{id}",
+    "RelativePath": "api/ProjectResearcherWorks/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -109,9 +93,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ScientificWorksArchive.Controllers.ProjectsController",
-    "Method": "DeleteProject",
-    "RelativePath": "api/Projects/DeleteProject/{id}",
+    "ContainingType": "ScientificWorksArchive.Controllers.ProjectResearcherWorksController",
+    "Method": "DeleteProjectResearcherWork",
+    "RelativePath": "api/ProjectResearcherWorks/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -126,8 +110,54 @@
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ProjectsController",
+    "Method": "GetProjects",
+    "RelativePath": "api/Projects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ScientificWorksArchive.Data.Project, ScientificWorksArchive, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ScientificWorksArchive.Controllers.ProjectsController",
+    "Method": "PostProject",
+    "RelativePath": "api/Projects",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectInput",
+        "Type": "ScientificWorksArchive.Models.ProjectInput",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ScientificWorksArchive.Data.Project",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ScientificWorksArchive.Controllers.ProjectsController",
     "Method": "GetProject",
-    "RelativePath": "api/Projects/GetProject/{id}",
+    "RelativePath": "api/Projects/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -152,8 +182,45 @@
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ProjectsController",
+    "Method": "PutProject",
+    "RelativePath": "api/Projects/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "projectInput",
+        "Type": "ScientificWorksArchive.Models.ProjectInput",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ScientificWorksArchive.Controllers.ProjectsController",
+    "Method": "DeleteProject",
+    "RelativePath": "api/Projects/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ScientificWorksArchive.Controllers.ProjectsController",
     "Method": "GetProjectResearchers",
-    "RelativePath": "api/Projects/GetProjectResearchers/{id}",
+    "RelativePath": "api/Projects/{id}/researchers",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -178,28 +245,8 @@
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ProjectsController",
-    "Method": "GetProjects",
-    "RelativePath": "api/Projects/GetProjects",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ScientificWorksArchive.Data.Project, ScientificWorksArchive, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "ScientificWorksArchive.Controllers.ProjectsController",
     "Method": "GetProjectWorks",
-    "RelativePath": "api/Projects/GetProjectWorks/{id}",
+    "RelativePath": "api/Projects/{id}/works",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -223,22 +270,16 @@
     ]
   },
   {
-    "ContainingType": "ScientificWorksArchive.Controllers.ProjectsController",
-    "Method": "PostProject",
-    "RelativePath": "api/Projects/PostProject",
-    "HttpMethod": "POST",
+    "ContainingType": "ScientificWorksArchive.Controllers.ProjectStatusesController",
+    "Method": "GetProjectStatuses",
+    "RelativePath": "api/ProjectStatuses",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "projectInput",
-        "Type": "ScientificWorksArchive.Models.ProjectInput",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "ScientificWorksArchive.Data.Project",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ScientificWorksArchive.Data.ProjectStatus, ScientificWorksArchive, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -249,46 +290,35 @@
     ]
   },
   {
-    "ContainingType": "ScientificWorksArchive.Controllers.ProjectsController",
-    "Method": "PutProject",
-    "RelativePath": "api/Projects/PutProject/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "projectInput",
-        "Type": "ScientificWorksArchive.Models.ProjectInput",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "ScientificWorksArchive.Controllers.ProjectStatusesController",
-    "Method": "DeleteProjectStatus",
-    "RelativePath": "api/ProjectStatuses/DeleteProjectStatus/{id}",
-    "HttpMethod": "DELETE",
+    "Method": "PostProjectStatus",
+    "RelativePath": "api/ProjectStatuses",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "projectStatus",
+        "Type": "ScientificWorksArchive.Data.ProjectStatus",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "ScientificWorksArchive.Data.ProjectStatus",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ProjectStatusesController",
     "Method": "GetProjectStatus",
-    "RelativePath": "api/ProjectStatuses/GetProjectStatus/{id}",
+    "RelativePath": "api/ProjectStatuses/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -313,28 +343,45 @@
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ProjectStatusesController",
-    "Method": "GetProjectStatuses",
-    "RelativePath": "api/ProjectStatuses/GetProjectStatuses",
-    "HttpMethod": "GET",
+    "Method": "PutProjectStatus",
+    "RelativePath": "api/ProjectStatuses/{id}",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ScientificWorksArchive.Data.ProjectStatus, ScientificWorksArchive, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "projectStatus",
+        "Type": "ScientificWorksArchive.Data.ProjectStatus",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ScientificWorksArchive.Controllers.ProjectStatusesController",
+    "Method": "DeleteProjectStatus",
+    "RelativePath": "api/ProjectStatuses/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ProjectStatusesController",
     "Method": "GetProjectsWithStatus",
-    "RelativePath": "api/ProjectStatuses/GetProjectsWithStatus/{id}",
+    "RelativePath": "api/ProjectStatuses/{id}/projects",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -358,22 +405,16 @@
     ]
   },
   {
-    "ContainingType": "ScientificWorksArchive.Controllers.ProjectStatusesController",
-    "Method": "PostProjectStatus",
-    "RelativePath": "api/ProjectStatuses/PostProjectStatus",
-    "HttpMethod": "POST",
+    "ContainingType": "ScientificWorksArchive.Controllers.ResearchersController",
+    "Method": "GetResearchers",
+    "RelativePath": "api/Researchers",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "projectStatus",
-        "Type": "ScientificWorksArchive.Data.ProjectStatus",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "ScientificWorksArchive.Data.ProjectStatus",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ScientificWorksArchive.Data.Researcher, ScientificWorksArchive, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -384,46 +425,35 @@
     ]
   },
   {
-    "ContainingType": "ScientificWorksArchive.Controllers.ProjectStatusesController",
-    "Method": "PutProjectStatus",
-    "RelativePath": "api/ProjectStatuses/PutProjectStatus/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "projectStatus",
-        "Type": "ScientificWorksArchive.Data.ProjectStatus",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "ScientificWorksArchive.Controllers.ResearchersController",
-    "Method": "DeleteResearcher",
-    "RelativePath": "api/Researchers/DeleteResearcher/{id}",
-    "HttpMethod": "DELETE",
+    "Method": "PostResearcher",
+    "RelativePath": "api/Researchers",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "researcherInput",
+        "Type": "ScientificWorksArchive.Models.ResearcherInput",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "ScientificWorksArchive.Data.Researcher",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ResearchersController",
     "Method": "GetResearcher",
-    "RelativePath": "api/Researchers/GetResearcher/{id}",
+    "RelativePath": "api/Researchers/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -448,28 +478,45 @@
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ResearchersController",
-    "Method": "GetResearchers",
-    "RelativePath": "api/Researchers/GetResearchers",
-    "HttpMethod": "GET",
+    "Method": "PutResearcher",
+    "RelativePath": "api/Researchers/{id}",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ScientificWorksArchive.Data.Researcher, ScientificWorksArchive, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "researcherInput",
+        "Type": "ScientificWorksArchive.Models.ResearcherInput",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ScientificWorksArchive.Controllers.ResearchersController",
+    "Method": "DeleteResearcher",
+    "RelativePath": "api/Researchers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ResearchersController",
     "Method": "GetResearchersProjects",
-    "RelativePath": "api/Researchers/GetResearchersProjects/{id}",
+    "RelativePath": "api/Researchers/{id}/projects",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -495,7 +542,7 @@
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ResearchersController",
     "Method": "GetResearchersWorks",
-    "RelativePath": "api/Researchers/GetResearchersWorks/{id}",
+    "RelativePath": "api/Researchers/{id}/works",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -519,22 +566,16 @@
     ]
   },
   {
-    "ContainingType": "ScientificWorksArchive.Controllers.ResearchersController",
-    "Method": "PostResearcher",
-    "RelativePath": "api/Researchers/PostResearcher",
-    "HttpMethod": "POST",
+    "ContainingType": "ScientificWorksArchive.Controllers.ResearcherStatusesController",
+    "Method": "GetResearcherStatuses",
+    "RelativePath": "api/ResearcherStatuses",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "researcherInput",
-        "Type": "ScientificWorksArchive.Models.ResearcherInput",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "ScientificWorksArchive.Data.Researcher",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ScientificWorksArchive.Data.ResearcherStatus, ScientificWorksArchive, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -545,46 +586,35 @@
     ]
   },
   {
-    "ContainingType": "ScientificWorksArchive.Controllers.ResearchersController",
-    "Method": "PutResearcher",
-    "RelativePath": "api/Researchers/PutResearcher/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "researcherInput",
-        "Type": "ScientificWorksArchive.Models.ResearcherInput",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "ScientificWorksArchive.Controllers.ResearcherStatusesController",
-    "Method": "DeleteResearcherStatus",
-    "RelativePath": "api/ResearcherStatuses/DeleteResearcherStatus/{id}",
-    "HttpMethod": "DELETE",
+    "Method": "PostResearcherStatus",
+    "RelativePath": "api/ResearcherStatuses",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "researcherStatus",
+        "Type": "ScientificWorksArchive.Data.ResearcherStatus",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "ScientificWorksArchive.Data.ResearcherStatus",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ResearcherStatusesController",
     "Method": "GetResearcherStatus",
-    "RelativePath": "api/ResearcherStatuses/GetResearcherStatus/{id}",
+    "RelativePath": "api/ResearcherStatuses/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -609,28 +639,45 @@
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ResearcherStatusesController",
-    "Method": "GetResearcherStatuses",
-    "RelativePath": "api/ResearcherStatuses/GetResearcherStatuses",
-    "HttpMethod": "GET",
+    "Method": "PutResearcherStatus",
+    "RelativePath": "api/ResearcherStatuses/{id}",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ScientificWorksArchive.Data.ResearcherStatus, ScientificWorksArchive, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "researcherStatus",
+        "Type": "ScientificWorksArchive.Data.ResearcherStatus",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ScientificWorksArchive.Controllers.ResearcherStatusesController",
+    "Method": "DeleteResearcherStatus",
+    "RelativePath": "api/ResearcherStatuses/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ResearcherStatusesController",
     "Method": "GetResearchersWithStatus",
-    "RelativePath": "api/ResearcherStatuses/GetResearchersWithStatus/{id}",
+    "RelativePath": "api/ResearcherStatuses/{id}/researchers",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -654,22 +701,16 @@
     ]
   },
   {
-    "ContainingType": "ScientificWorksArchive.Controllers.ResearcherStatusesController",
-    "Method": "PostResearcherStatus",
-    "RelativePath": "api/ResearcherStatuses/PostResearcherStatus",
-    "HttpMethod": "POST",
+    "ContainingType": "ScientificWorksArchive.Controllers.ScientificWorksController",
+    "Method": "GetScientificWorks",
+    "RelativePath": "api/ScientificWorks",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "researcherStatus",
-        "Type": "ScientificWorksArchive.Data.ResearcherStatus",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "ScientificWorksArchive.Data.ResearcherStatus",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ScientificWorksArchive.Data.ScientificWork, ScientificWorksArchive, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -680,46 +721,55 @@
     ]
   },
   {
-    "ContainingType": "ScientificWorksArchive.Controllers.ResearcherStatusesController",
-    "Method": "PutResearcherStatus",
-    "RelativePath": "api/ResearcherStatuses/PutResearcherStatus/{id}",
-    "HttpMethod": "PUT",
+    "ContainingType": "ScientificWorksArchive.Controllers.ScientificWorksController",
+    "Method": "PostScientificWork",
+    "RelativePath": "api/ScientificWorks",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "Id",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       },
       {
-        "Name": "researcherStatus",
-        "Type": "ScientificWorksArchive.Data.ResearcherStatus",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ScientificWorksArchive.Controllers.ScientificWorksController",
-    "Method": "DeleteScientificWork",
-    "RelativePath": "api/ScientificWorks/DeleteScientificWork/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
       {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "WorkFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationDate",
+        "Type": "System.DateOnly",
+        "IsRequired": false
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "ScientificWorksArchive.Data.ScientificWork",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ScientificWorksController",
     "Method": "GetScientificWork",
-    "RelativePath": "api/ScientificWorks/GetScientificWork/{id}",
+    "RelativePath": "api/ScientificWorks/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -744,28 +794,60 @@
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ScientificWorksController",
-    "Method": "GetScientificWorks",
-    "RelativePath": "api/ScientificWorks/GetScientificWorks",
-    "HttpMethod": "GET",
+    "Method": "PutScientificWork",
+    "RelativePath": "api/ScientificWorks/{id}",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ScientificWorksArchive.Data.ScientificWork, ScientificWorksArchive, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "WorkFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrationDate",
+        "Type": "System.DateOnly",
+        "IsRequired": false
       }
-    ]
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ScientificWorksArchive.Controllers.ScientificWorksController",
+    "Method": "DeleteScientificWork",
+    "RelativePath": "api/ScientificWorks/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ScientificWorksController",
     "Method": "GetWorkProjects",
-    "RelativePath": "api/ScientificWorks/GetWorkProjects/{id}",
+    "RelativePath": "api/ScientificWorks/{id}/projects",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -791,7 +873,7 @@
   {
     "ContainingType": "ScientificWorksArchive.Controllers.ScientificWorksController",
     "Method": "GetWorkReaserchers",
-    "RelativePath": "api/ScientificWorks/GetWorkReaserchers/{id}",
+    "RelativePath": "api/ScientificWorks/{id}/researchers",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -813,87 +895,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "ScientificWorksArchive.Controllers.ScientificWorksController",
-    "Method": "PostScientificWork",
-    "RelativePath": "api/ScientificWorks/PostScientificWork",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "Name",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Description",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "WorkFile",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
-      },
-      {
-        "Name": "RegistrationDate",
-        "Type": "System.DateOnly",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "ScientificWorksArchive.Data.ScientificWork",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "ScientificWorksArchive.Controllers.ScientificWorksController",
-    "Method": "PutScientificWork",
-    "RelativePath": "api/ScientificWorks/PutScientificWork/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "Name",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Description",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "WorkFile",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
-      },
-      {
-        "Name": "RegistrationDate",
-        "Type": "System.DateOnly",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
   }
 ]

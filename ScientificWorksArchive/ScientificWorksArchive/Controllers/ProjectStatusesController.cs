@@ -9,7 +9,7 @@ using ScientificWorksArchive.Data;
 
 namespace ScientificWorksArchive.Controllers;
 
-[Route("api/[controller]/[action]")]
+[Route("api/[controller]")]
 [ApiController]
 public class ProjectStatusesController : ControllerBase
 {
@@ -55,7 +55,7 @@ public class ProjectStatusesController : ControllerBase
         }
         catch (DbUpdateConcurrencyException)
         {
-            if (!ProjectStatusExists(id))
+            if (!await ProjectStatusExists(id))
             {
                 return NotFound();
             }
@@ -92,15 +92,15 @@ public class ProjectStatusesController : ControllerBase
         return NoContent();
     }
 
-    private bool ProjectStatusExists(int id)
+    private async Task<bool> ProjectStatusExists(int id)
     {
-        return _context.ProjectStatuses.Any(e => e.Id == id);
+        return await _context.ProjectStatuses.AnyAsync(e => e.Id == id);
     }
 
-    [HttpGet("{id}")]
+    [HttpGet("{id}/projects")]
     public async Task<ActionResult<IEnumerable<Project>>> GetProjectsWithStatus(int id)
     {
-        if (!ProjectStatusExists(id))
+        if (!await ProjectStatusExists(id))
         {
             return NotFound();
         }

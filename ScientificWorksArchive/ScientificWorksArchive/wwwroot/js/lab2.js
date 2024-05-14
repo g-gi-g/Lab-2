@@ -2,10 +2,10 @@
 let projectStatuses = [];
 
 function getProjectStatuses() {
-    fetch(`${uri}/GetProjectStatuses`)
+    fetch(`${uri}`)
         .then(response => response.json())
         .then(data => _displayProjectStatuses(data))
-        .catch(error => console.error('Неможливо отримати статуси проєктів.', error));
+        .catch(error => console.error('Unable to get statuses.', error));
 }
 
 function addProjectStatus() {
@@ -17,7 +17,7 @@ function addProjectStatus() {
         Description: addDescriptionTextbox.value.trim(),
     };
 
-    fetch(`${uri}/PostProjectStatus`, {
+    fetch(`${uri}`, {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
@@ -31,15 +31,15 @@ function addProjectStatus() {
             addNameTextbox.value = '';
             addDescriptionTextbox.value = '';
         })
-        .catch(error => console.error('Неможливо додати статус проєкту.', error));
+        .catch(error => console.error('Unable to add status.', error));
 }
 
 function deleteProjectStatus(id) {
-    fetch(`${uri}/DeleteProjectStatus/${id}`, {
+    fetch(`${uri}/${id}`, {
         method: 'DELETE'
     })
         .then(() => getProjectStatuses())
-        .catch(error => console.error('Неможливо видалити статус проєкту.', error));
+        .catch(error => console.error('Unable to delete status.', error));
 }
 
 function displayEditForm(id) {
@@ -59,7 +59,7 @@ function updateProjectStatus() {
         Description: document.getElementById('edit-description').value.trim()
     };
 
-    fetch(`${uri}/PutProjectStatus/${projectStatusId}`, {
+    fetch(`${uri}/${projectStatusId}`, {
         method: 'PUT',
         headers: {
             'Accept': 'application/json',
@@ -68,7 +68,7 @@ function updateProjectStatus() {
         body: JSON.stringify(projectStatus)
     })
         .then(() => getProjectStatuses())
-        .catch(error => console.error('Неможливо оновити статус проєкту.', error));
+        .catch(error => console.error('Unable to update status.', error));
 
     closeInput();
 
@@ -130,10 +130,10 @@ function getProjectsWithStatus(id)
     document.getElementById('projectResultTableHeader').style.display = 'block';
     document.getElementById('projectResultTableCloseBtn').style.display = 'block';
 
-    fetch(`${uri}/GetProjectsWithStatus/${id}`)
+    fetch(`${uri}/${id}/projects`)
         .then(response => response.json())
         .then(data => _displayProjects(data))
-        .catch(error => console.error('Неможливо отримати проєкти для статусу.', error));
+        .catch(error => console.error('Unable to get projects with status.', error));
 }
 
 function _displayProjects(data)
