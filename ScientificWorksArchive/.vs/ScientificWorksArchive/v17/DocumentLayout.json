@@ -3,36 +3,12 @@
   "WorkspaceRootPath": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|e:\\\u0456\u0441\u0442\u0430\u0442\u043F\\lab 2\\lab2\\scientificworksarchive\\scientificworksarchive\\wwwroot\\js\\lab2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|solutionrelative:scientificworksarchive\\wwwroot\\js\\lab2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|e:\\\u0456\u0441\u0442\u0430\u0442\u043F\\lab 2\\lab2\\scientificworksarchive\\scientificworksarchive\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|solutionrelative:scientificworksarchive\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|e:\\\u0456\u0441\u0442\u0430\u0442\u043F\\lab 2\\lab2\\scientificworksarchive\\scientificworksarchive\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|solutionrelative:scientificworksarchive\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|e:\\\u0456\u0441\u0442\u0430\u0442\u043F\\lab 2\\lab2\\scientificworksarchive\\scientificworksarchive\\controllers\\projectresearcherworkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|solutionrelative:scientificworksarchive\\controllers\\projectresearcherworkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|e:\\\u0456\u0441\u0442\u0430\u0442\u043F\\lab 2\\lab2\\scientificworksarchive\\scientificworksarchive\\controllers\\scientificworkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|solutionrelative:scientificworksarchive\\controllers\\scientificworkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|e:\\\u0456\u0441\u0442\u0430\u0442\u043F\\lab 2\\lab2\\scientificworksarchive\\scientificworksarchive\\controllers\\projectstatusescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|solutionrelative:scientificworksarchive\\controllers\\projectstatusescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|e:\\\u0456\u0441\u0442\u0430\u0442\u043F\\lab 2\\lab2\\scientificworksarchive\\scientificworksarchive\\controllers\\researcherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|solutionrelative:scientificworksarchive\\controllers\\researcherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|e:\\\u0456\u0441\u0442\u0430\u0442\u043F\\lab 2\\lab2\\scientificworksarchive\\scientificworksarchive\\controllers\\researcherstatusescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC31E72-C666-49FB-8DA6-DFBFAACC190E}|ScientificWorksArchive\\ScientificWorksArchive.csproj|solutionrelative:scientificworksarchive\\controllers\\researcherstatusescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497EBBEF-CB13-41F1-B534-5D3FF029DCCC}|ScientificWorksArchiveTests\\ScientificWorksArchiveTests.csproj|e:\\\u0456\u0441\u0442\u0430\u0442\u043F\\lab 2\\lab2\\scientificworksarchive\\scientificworksarchivetests\\controllers\\researcherstatusescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497EBBEF-CB13-41F1-B534-5D3FF029DCCC}|ScientificWorksArchiveTests\\ScientificWorksArchiveTests.csproj|solutionrelative:scientificworksarchivetests\\controllers\\researcherstatusescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,6 +21,19 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResearcherStatusesControllerTests.cs",
+              "DocumentMoniker": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchiveTests\\Controllers\\ResearcherStatusesControllerTests.cs",
+              "RelativeDocumentMoniker": "ScientificWorksArchiveTests\\Controllers\\ResearcherStatusesControllerTests.cs",
+              "ToolTip": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchiveTests\\Controllers\\ResearcherStatusesControllerTests.cs",
+              "RelativeToolTip": "ScientificWorksArchiveTests\\Controllers\\ResearcherStatusesControllerTests.cs",
+              "ViewState": "AQIAACEBAAAAAAAAAAAQwDEBAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T20:25:46.878Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
@@ -54,106 +43,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\Program.cs",
-              "RelativeDocumentMoniker": "ScientificWorksArchive\\Program.cs",
-              "ToolTip": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\Program.cs",
-              "RelativeToolTip": "ScientificWorksArchive\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T06:26:10.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "lab2.js",
-              "DocumentMoniker": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\wwwroot\\js\\lab2.js",
-              "RelativeDocumentMoniker": "ScientificWorksArchive\\wwwroot\\js\\lab2.js",
-              "ToolTip": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\wwwroot\\js\\lab2.js",
-              "RelativeToolTip": "ScientificWorksArchive\\wwwroot\\js\\lab2.js",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAIwFAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-05-14T06:16:51.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProjectResearcherWorksController.cs",
-              "DocumentMoniker": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\Controllers\\ProjectResearcherWorksController.cs",
-              "RelativeDocumentMoniker": "ScientificWorksArchive\\Controllers\\ProjectResearcherWorksController.cs",
-              "ToolTip": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\Controllers\\ProjectResearcherWorksController.cs",
-              "RelativeToolTip": "ScientificWorksArchive\\Controllers\\ProjectResearcherWorksController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T06:15:16.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProjectsController.cs",
-              "DocumentMoniker": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\Controllers\\ProjectsController.cs",
-              "RelativeDocumentMoniker": "ScientificWorksArchive\\Controllers\\ProjectsController.cs",
-              "ToolTip": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\Controllers\\ProjectsController.cs",
-              "RelativeToolTip": "ScientificWorksArchive\\Controllers\\ProjectsController.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAYwDkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T06:13:31.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProjectStatusesController.cs",
-              "DocumentMoniker": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\Controllers\\ProjectStatusesController.cs",
-              "RelativeDocumentMoniker": "ScientificWorksArchive\\Controllers\\ProjectStatusesController.cs",
-              "ToolTip": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\Controllers\\ProjectStatusesController.cs",
-              "RelativeToolTip": "ScientificWorksArchive\\Controllers\\ProjectStatusesController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAAwD4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T06:12:56.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ResearchersController.cs",
-              "DocumentMoniker": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\Controllers\\ResearchersController.cs",
-              "RelativeDocumentMoniker": "ScientificWorksArchive\\Controllers\\ResearchersController.cs",
-              "ToolTip": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\Controllers\\ResearchersController.cs",
-              "RelativeToolTip": "ScientificWorksArchive\\Controllers\\ResearchersController.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAmwEEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T06:11:10.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "ResearcherStatusesController.cs",
               "DocumentMoniker": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\Controllers\\ResearcherStatusesController.cs",
               "RelativeDocumentMoniker": "ScientificWorksArchive\\Controllers\\ResearcherStatusesController.cs",
               "ToolTip": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\Controllers\\ResearcherStatusesController.cs",
               "RelativeToolTip": "ScientificWorksArchive\\Controllers\\ResearcherStatusesController.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAcwD4AAAANAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAmwBYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T06:10:32.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ScientificWorksController.cs",
-              "DocumentMoniker": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\Controllers\\ScientificWorksController.cs",
-              "RelativeDocumentMoniker": "ScientificWorksArchive\\Controllers\\ScientificWorksController.cs",
-              "ToolTip": "E:\\\u0406\u0421\u0442\u0430\u0422\u041F\\Lab 2\\Lab2\\ScientificWorksArchive\\ScientificWorksArchive\\Controllers\\ScientificWorksController.cs",
-              "RelativeToolTip": "ScientificWorksArchive\\Controllers\\ScientificWorksController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJIAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T06:04:40.616Z",
+              "WhenOpened": "2024-05-17T19:11:57.054Z",
               "EditorCaption": ""
             }
           ]
